@@ -22,8 +22,8 @@
 
 #This script defines a python function that warps tumor segmentation to common MNI brain space
 #Developed for the LesionMap-UCSF python package developed by the Hervey-Jumper group at UCSF Neurosurgery
-import ants
 import os
+import ants
 
 def warp(template_image, seg_dir, ref_dir):
 # template_image should be a scan from the MNI template which can be found here: https://neuroconductor.org/help/MNITemplate/ 
