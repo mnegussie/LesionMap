@@ -93,7 +93,7 @@ config['weights_arr'] = np.array([0.05, 1.0]) # 2 Classes
 #config['output_width'] = 224
 #config['epochs'] = 35	# number of training epochs
 config['load_model'] = True # continue training from a saved checkpoint
-config['load_model_path'] = "/mnt/c/Users/micke/Downloads/paper_weights/paper_weights"+config['encoder_name']+"_"+config['decoder_name']+".hdf5" # specifiy the loaded model path or None
+config['load_model_path'] = "/path/to/DeepSeg/paper_weights"+config['encoder_name']+"_"+config['decoder_name']+".hdf5" # specifiy the loaded model path or None
 
 #config['model_num'] = '20' # load model by the number of training epoch if config['load_model_path'] = None
 #config['initial_epoch'] = config['model_num'] if config['load_model'] else 0  # continue training
