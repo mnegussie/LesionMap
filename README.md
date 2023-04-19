@@ -16,7 +16,7 @@ LesionMapUCSF is a comprehensive package for normalization and visualization of 
 scripts are part of the DeepSeg toolkit to automatically segment scans. If you are manually segmenting scans (with 3D slicer for example), you can skip these steps.
 
 ### 2) Normalize scans to Montreal Neurological Institute brain space
-`python3 warp.py` normalizes segments to common MNI brain space 
+`python3 warp.py` normalizes segments to common MNI brain space. 
 MNI template can be downloaded here: https://neuroconductor.org/help/MNITemplate/
 ### 3) Make your heatmap
-`python3 heatmap.py` #makes a 3D matrix of masks and maps them onto a common average brain
+`python3 heatmap.py` makes a 3D matrix of masks and maps them onto a common average brain
