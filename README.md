@@ -1,5 +1,5 @@
 # LesionMap
-LesionMapUCSF is a comprehensive package for normalization and visualization of volumetric imaging segments. Users can perform segmentation, normalization, and visualization of large datasets with very few lines of code. 
+LesionMap is a comprehensive package for normalization and visualization of volumetric imaging segments. Users can perform segmentation, normalization, and visualization of large datasets with very few lines of code. 
 
 ## **Install**
 
