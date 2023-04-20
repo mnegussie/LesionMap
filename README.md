@@ -3,7 +3,7 @@ LesionMapUCSF is a comprehensive package for normalization and visualization of 
 
 ## **Install**
 
-`pip install LesionMapUCSF`
+`pip install LesionMap`
 
 ## **Usage**
 
